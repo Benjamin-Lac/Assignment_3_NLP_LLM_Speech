@@ -1,0 +1,30 @@
+# True receipt contents extracted from test_text_extraction.py
+
+# Sample rows used in tests
+WAL*MART t,OPEN 24 HOURS,$24.00
+TRADER JOE'S,TOMATOES CRUSHED NO SALT,$1.59
+TRADER JOE'S,ORGANIC OATMEAL,$2.69
+
+# Synthetic OCR token sequence from test_process_image_file_parses_sample_receipt_lines
+TRADER JOE'S
+TOMATOES
+CRUSHED
+NO
+SALT
+1.59
+ORGANIC
+OATMEAL
+2.69
+MINI-PEARL
+TOMATOES
+2.49
+
+# Sample top lines used for store picking
+WAL*MART t
+OPEN 24 HOURS
+Some Address
+
+# Keywords referenced in tests (for reference)
+tomato
+oatmeal
+total
